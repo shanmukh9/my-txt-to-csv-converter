@@ -16,10 +16,7 @@ s3 = boto3.client(
     aws_secret_access_key=aws_secret_key
 )
 # S3 bucket name
-bucket_name = 'my-txt-to-csv'
-
-# S3 bucket name
-
+bucket_name = 's3-g1-demo'
 
 st.title("Text to CSV Converter")
 
